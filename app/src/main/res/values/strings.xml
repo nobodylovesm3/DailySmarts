@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Daily Smarts</string>
+    <string name="refresh">Refresh</string>
+    <string name="daily_quote">Daily Quote</string>
+    <string name="my_quotes">My Quotes</string>
+    <string name="raid">Quote</string>
+    <string name="author">Author</string>
+    <string name="no_network">Network is required... otherwise it won\'t work!</string>
+</resources>

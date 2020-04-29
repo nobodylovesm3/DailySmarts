@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <android.support.v7.widget.CardView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_medium"
+        android:background="@color/white"
+        app:cardBackgroundColor="@color/cardview_light_background"
+        app:cardCornerRadius="@dimen/card_corner">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_medium">
+
+            <TextView
+                android:id="@+id/txt_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Test - Title"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/txt_quote"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginStart="3dp"
+                android:layout_marginBottom="@dimen/margin_medium"
+                android:scaleType="fitStart" />
+
+            <TextView
+                android:id="@+id/txt_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="testestsetestestsetes"
+                android:textSize="10sp" />
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/margin_big"
+            android:orientation="horizontal"
+            android:padding="@dimen/padding_medium">
+
+            <ImageButton
+            android:id="@+id/btn_attend"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:width="@dimen/size_heart"
+            android:height="@dimen/size_heart"
+                android:layout_marginStart="147dp"
+            android:background="@drawable/empty_recycle" />
+
+            <ImageButton
+            android:id="@+id/btn_share"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:width="@dimen/size_heart"
+            android:height="@dimen/size_heart"
+                android:layout_marginLeft="30dp"
+
+            android:background="@drawable/ic_share_black_24dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</layout>
